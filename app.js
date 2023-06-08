@@ -38,6 +38,7 @@ var player = document.querySelector('#player')
 function playerOne(ele) {
     player.innerHTML = `${player1.value} Select (X)`
     ele.innerHTML = x
+    ele.classList.add('disable')
     var text = document.getElementsByTagName("span");
     for (var i of text) {
         // console.log(i)
@@ -124,6 +125,7 @@ function playerOne(ele) {
 }
 function playerTwo(e) {
     player.innerHTML = `${player2.value} Select (O)`
+    e.classList.add('disable')
     e.innerHTML = o
 
     for (var i of text) {
