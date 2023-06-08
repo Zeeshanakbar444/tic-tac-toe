@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(8, 59, 227, .3);
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 100px;
+    height: 50px;
+
+    border: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+
+}
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    display: none;
+
+}
+
+
+.col {
+    background-color: aqua;
+}
+
+.col2 {
+    background-color: rgb(117, 131, 220);
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.text {
+
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.text:hover {
+    background-color: blueviolet;
+}
+
+/* for border */
+#seven {
+    border-right: 0;
+}
+
+#eight {
+    border-right: 0;
+}
+
+#nine {
+    border-right: 0;
+}
+
+#three {
+    border-bottom: 0;
+}
+
+#six {
+    border-bottom: 0;
+}
+
+#nine {
+    border-bottom: 0;
+}
+
+.tic {
+    text-align: center;
+    margin-top: 20px;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+
+.game {
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+#h1 {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(194, 11, 11 , .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(107, 13, 194, 0.5);
+    padding: 10px;
+
+}
+
+input {
+    margin: 20px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#player{
+    display: flex;
+    justify-content: center;
+    color: rgb(45, 20, 171);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    
+}
+.result{
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    margin-left: 50px;
+    width: 100px;
+}

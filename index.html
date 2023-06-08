@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="tic">TIC TAC TOE</h1>
+    <h1 class="game">GAME</h1>
+
+    <form id="form" onsubmit="formEnter(event)">
+        <label>Player 1 : <input required type="text" id="player1"></label>
+        <label>Player 2: <input required type="text" id="player2"></label>
+        <button>submit</button>
+    </form>
+    <h1 id="player"></h1>
+
+    <div class="main" id="main">
+        <div>
+            <span class="text" id="one"></span>
+            <span class="text" id="two"></span>
+            <span class="text" id="three"></span>
+        </div>
+        <div>
+            <span class="text" id="four"></span>
+            <span class="text" id="five"></span>
+            <span class="text" id="six"></span>
+        </div>
+        <div>
+            <span class="text" id="seven"></span>
+            <span class="text" id="eight"></span>
+            <span class="text" id="nine"></span>
+
+        </div>
+        <button class="btn" onclick="reload()">reload</button>
+    </div>
+    <h1 class="result"> RESULT</h1>
+    <h1 id="h1"></h1>
+
+
+    <script src="./app.js">
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
